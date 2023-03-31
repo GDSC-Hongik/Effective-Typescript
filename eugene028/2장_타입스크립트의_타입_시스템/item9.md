@@ -61,7 +61,7 @@ const elNull = document.getElementById('foo');
 const el = document.getElementById('foo')!;
 //타입은 HTMLElement
 ```
-이 때, 접미사에 사용된 `!` 은 단언문으로 생각해야 하며, 컴파일 과정 중에 제거되기 때문에 **Null이 아니라고 확신할 수 있을때만 사용해야 한다**
+이 때, 접미사에 사용된 `!` 은 단언문으로 생각해야 하며, 컴파일 과정 중에 제거되기 때문에 **Null이 아니라고 확신할 수 있을때만 사용해야 한다!!**
 
 
                                            
