@@ -14,8 +14,11 @@
 // x는 number 타입으로 추론됨
 let x = 0;
 
-// str은 "y" 리터럴 타입으로 추론됨
-const str = "y";
+// y는 0 리터럴 타입으로 추론됨
+const y = 0;
+
+// str은 "str" 리터럴 타입으로 추론됨
+const str = "str";
 
 // obj는 {
 //     name: string;
