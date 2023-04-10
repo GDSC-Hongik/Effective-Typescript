@@ -12,7 +12,7 @@
 
 ```ts
 // x는 number 타입으로 추론됨
-const x = 0;
+let x = 0;
 
 // str은 "y" 리터럴 타입으로 추론됨
 const str = "y";
