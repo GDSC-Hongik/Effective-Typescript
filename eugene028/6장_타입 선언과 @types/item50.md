@@ -30,7 +30,7 @@ const str = double('x'); //타입이 string
 ```ts
 function f(x: number|string){
   return double(x);
-  //string|number 형식의 인수는 'string'형식의 매개변수에 할당 불가
+  //string|number 형식의 인수는 'string'형식의 매개변수에 할당 불가..
 }
 ```
 double 함수가 호출되면 오버로딩 타입 중에서 일치하는 타입이 있을 때까지 순차적인 검색을 진행한다. 오버로딩 타입인 string 까지 검사했을 때, string|number 타입은 string에 할당할 수 없기 때문에 오류가 발생한 것이다. 이럴 경우 조건부 타입을 이용하여 타입 공간에 if문을 만들어주는 효과를 줘보자.
